@@ -4,13 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:router": "react-router build",
-    "dev:router": "react-router dev",
-    "start:router": "react-router-serve ./build/server/index.js",
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
