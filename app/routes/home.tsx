@@ -1,5 +1,5 @@
 
-import { Welcome } from "../welcome/welcome";
+import { Welcome } from "~/welcome/welcome";
 
 export function meta({}:any) {
 	return [
